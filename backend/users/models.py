@@ -23,7 +23,7 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
-    price = models.IntegerField(
+    price = models.BigIntegerField(
         null=True,
         blank=True,
     )
